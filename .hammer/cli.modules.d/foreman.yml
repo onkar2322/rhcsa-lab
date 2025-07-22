@@ -1,0 +1,4 @@
+:foreman:
+  # Credentials. You'll be asked for them interactively if you leave them blank here
+  :username: 'admin'
+  :password: 'bc31c9a6-9ff0-11ec-9587-00155d1b0702'

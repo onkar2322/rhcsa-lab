@@ -1,0 +1,93 @@
+[ERROR 2025-03-05T17:56:38 Exception] Error: At least one of options --id, --name is required.
+
+See: 'hammer repository upload-content --help'.
+[ERROR 2025-03-05T17:56:38 Exception] 
+
+Clamp::UsageError (At least one of options --id, --name is required.):
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:119:in `rescue in parse'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:114:in `parse'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:65:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:140:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/bin/hammer:142:in `<top (required)>'
+    /bin/hammer:25:in `load'
+    /bin/hammer:25:in `<main>'
+
+
+[ERROR 2025-03-05T17:57:12 Exception] Error: Unrecognised option '-n'.
+
+See: 'hammer repository upload-content --help'.
+[ERROR 2025-03-05T17:57:12 Exception] 
+
+Clamp::UsageError (Unrecognised option '-n'.):
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/option/parsing.rb:83:in `find_option'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/option/parsing.rb:57:in `split_trailing_switches'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/option/parsing.rb:43:in `handle_switch'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/option/parsing.rb:37:in `set_options_from_command_line'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/option/parsing.rb:20:in `parse_options'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:50:in `parse'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:115:in `parse'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:65:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:140:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/bin/hammer:142:in `<top (required)>'
+    /bin/hammer:25:in `load'
+    /bin/hammer:25:in `<main>'
+
+
+[ERROR 2025-03-05T17:57:22 Exception] Error: At least one of options --product, --product-id is required.
+
+See: 'hammer repository upload-content --help'.
+[ERROR 2025-03-05T17:57:22 Exception] 
+
+Clamp::UsageError (At least one of options --product, --product-id is required.):
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:119:in `rescue in parse'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:114:in `parse'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:65:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:140:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/bin/hammer:142:in `<top (required)>'
+    /bin/hammer:25:in `load'
+    /bin/hammer:25:in `<main>'
+
+
+[ERROR 2025-03-05T17:57:53 Exception] Error: At least one of options --organization-id, --organization, --organization-label is required.
+
+See: 'hammer repository upload-content --help'.
+[ERROR 2025-03-05T17:57:53 Exception] 
+
+Clamp::UsageError (At least one of options --organization-id, --organization, --organization-label is required.):
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:119:in `rescue in parse'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:114:in `parse'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:65:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/subcommand/execution.rb:18:in `execute'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:66:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/lib/hammer_cli/abstract.rb:103:in `run'
+    /usr/share/gems/gems/clamp-1.3.2/lib/clamp/command.rb:140:in `run'
+    /usr/share/gems/gems/hammer_cli-3.14.0/bin/hammer:142:in `<top (required)>'
+    /bin/hammer:25:in `load'
+    /bin/hammer:25:in `<main>'
+
+

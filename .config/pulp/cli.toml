@@ -1,0 +1,3 @@
+[cli]
+cert = "/etc/foreman/client_cert.pem"
+key = "/etc/foreman/client_key.pem"
