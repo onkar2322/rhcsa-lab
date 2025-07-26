@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Task 19: Validate 512MB swap partition mounted permanently
+# Task 18: Validate 512MB swap partition mounted permanently
 
 echo "Checking if swap is enabled and permanent..."
 

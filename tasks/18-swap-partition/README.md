@@ -1,4 +1,4 @@
-# Task 19 - Add a Swap Partition of 512MB and Mount it Permanently
+# Task 18 - Add a Swap Partition of 512MB and Mount it Permanently
 
 ## Question
 **Add a swap partition of 512MB and mount it permanently.**
